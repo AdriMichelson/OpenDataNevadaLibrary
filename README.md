@@ -1,4 +1,4 @@
-![Image of Logo State of nevada](https://twitter.com/DataNevada/header_photo)
+![stateofnevada](https://twitter.com/DataNevada/header_photo)
 
 
 # Open Data Nevada Library
