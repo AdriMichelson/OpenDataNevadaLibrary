@@ -1,5 +1,6 @@
 ##Cleaning script for data from HHS Data.gov for 
-##Nevada specific hosptials
+##Nevada specific hosptials as of 12/7/2020 re
+##https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility
 
 ##Step1 Load Data
 library(readr)
@@ -11,10 +12,10 @@ library(tidyverse)
 library(purr)
 ##Pull Nevada
 view(weekly_timeseries_hospital_capacity)
-
+#NV Hosptial List
 nv_hospitals <- weekly_timeseries_hospital_capacity %>%
   filter(state == 'NV')
-
+##Count of  NV Hospitals by type by city
 nv_count_hospital_subtype <- nv_hospitals %>%
   count(city,hospital_subtype, sort = TRUE)
 
