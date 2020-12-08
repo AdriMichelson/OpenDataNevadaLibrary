@@ -33,8 +33,9 @@ Categories/SubCategories to consider grabbing data from:
 - Pandemic Planning & COVID19 Data
 - Foster Care Services
 - Homeless Care Services
-##### Healthcare
+##### ![Healthcare](https://github.com/AdriMichelson/OpenDataNevadaLibrary/tree/main/Healthcare)
 - Hospital Data
+- ![DHS Weekly Hospital Data](https://github.com/AdriMichelson/OpenDataNevadaLibrary/tree/main/Healthcare/COVID_Hospital_Capacity_Weekly)
 - Health Insurance Data
 
 
